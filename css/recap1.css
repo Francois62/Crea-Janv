@@ -1,0 +1,110 @@
+@import url('http://colorhunt.co/c/2763');
+@import url('http://colorhunt.co/c/17117');
+@import url('http://colorhunt.co/c/62193');
+@import url('http://colorhunt.co/c/43560');
+@import url('http://colorhunt.co/c/42452');
+@import url('http://colorhunt.co/c/42656');
+@import url('http://colorhunt.co/c/42214');
+.start{
+  z-index: 1;
+    border: solid black 1px;
+    width: 100%;
+    height: 40px;
+    background-color: #444;
+    position: fixed;
+}
+.start:hover{
+  border-bottom-color:  blue ;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navlist {
+    display: inline-flex;
+    margin-left: 55%;
+    list-style: none;
+    padding-right: 2%;
+    padding-bottom: 10px;
+
+}
+#pres{
+  margin: 0 auto;
+  padding: 0;
+  background-image: url('../img/home2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.first{
+  padding-top: 10%;
+  padding-left: 55%;
+  text-align: justify;
+}
+.second{
+
+  padding-left: 5%;
+  text-align: left;
+}
+.chatstream{
+  margin-top: 35%;
+background-color: #333;
+  background-size: cover;
+}
+.chat{
+  margin-right: 5%;
+  width:30%;
+  background-color: #444;
+  height:300px;
+}
+.sub{
+    padding-left: 55%;
+    text-align: justify;
+    color: grey;
+}
+.stream{
+  display: flex;
+  /*text-align: left;*/
+}
+.box{
+  margin-left: 5%;
+  width:60%;
+}
+.message{
+  margin-left: 10%;
+  margin-top: 20%;
+  height:30%;
+}
+.btn{
+  margin-left: 5%;
+}
+.team{
+  background-color:#444;
+}
+.listimg{
+  padding-left:1%;
+  background-color: #444;
+  display: flex;
+}
+.img{
+ padding-right: 23%;
+  width:2%;
+  height:10%;
+
+}
+li {
+
+    padding-left: 15%;
+}
+
+
+@media all and (max-width: 1620px)
+
+{
+
+    /* Rédigez vos propriétés CSS ici */
+
+}
